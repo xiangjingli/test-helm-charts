@@ -3,11 +3,21 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-09T13:20:40.784989-05:00"
+    created: "2021-02-09T15:12:45.25493-05:00"
     description: A Helm chart for Kubernetes
     digest: e4f682ae39475be7c23636406b28c62f062cac2c3176f0fec3028b5d0a12bbdc
     name: nginx
     urls:
     - https://xiangjingli.github.io/test-helm-charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-09T13:20:40.780602-05:00"
+  nginx-bad:
+  - apiVersion: v1
+    appVersion: "1.1"
+    created: "2021-02-09T15:12:45.255616-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 033ed93fb4ec94f206ad4991cd99e85ebd4d229e664aa393da0b0a6ea5342615
+    name: nginx-bad
+    urls:
+    - https://xiangjingli.github.io/test-helm-charts/nginx-bad-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-02-09T15:12:45.25327-05:00"
